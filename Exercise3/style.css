@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body{
+        background-color: whitesmoke;
+      }
+
+      .card-main {
+        border: 1px solid rgb(221, 216, 216);
+        border-radius: 10px;
+        width: 300px;
+        margin: 3vw 15vh;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .card-main img {
+        width: 280px;
+        padding: 10px;
+        border-radius: 20px;
+      }
+
+      .card-detail {
+        border: 0.1px solid rgb(221, 216, 216);
+        border-radius: 25px;
+        padding: 5px;
+        margin: 2px -8px 5px 12px;
+        color: rgb(132, 128, 128);
+        font-size: 13px;
+        font-weight: 900;
+      }
+
+      .card-main h2 {
+        margin: 15px;
+        font-weight: bolder;
+      }
+
+      .card-main p {
+        margin: 15px;
+        color: rgb(132, 128, 128);
+        font-weight: bolder;
+      }
+
+      .card-button {
+        text-align: center;
+      }
+
+      .button {
+        background-color: lightblue;
+        color: blue;
+        border: none;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 25px;
+        font-weight: bolder;
+      }
